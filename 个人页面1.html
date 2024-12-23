@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>我的个人主页</h1>
+    <div id="personal-info">
+        <h2>个人信息</h2>
+        <p>
+            <span class="prompt">姓名：</span>
+            <span id="name">小林</span>
+        </p>
+        <p>
+            <span class="prompt">年龄：
+            </span><span id="age">30</span>
+        </p>
+        <p>
+            <span class="prompt">职业：</span>
+            <span id="job">物联网技术开发工程师</span>
+        </p>
+        <p>
+            <span class="prompt">个人简介：</span>
+            <span id="bio">热爱编程，喜欢音乐和旅行。</span>
+        </p>
+    </div>
+    <div id="interests_list">
+        <h2>兴趣爱好</h2>
+        <button class="interest">编程</button>
+        <button class="interest">音乐</button>
+        <button class="interest">旅行</button>
+    </div>
+    <div id="contact">
+        <h2>联系方式</h2>
+        <p>
+            <span class="prompt">邮箱：</span>
+            <span id="email">xiaolin@example.com</span>
+        </p>
+        <p>
+            <span class="prompt">电话：</span>
+            <span id="tel">123456789</span>
+        </p>
+    </div>
+    <div id="form">
+        <h2>编辑个人信息：</h2>
+        <form action="#" method="post" id="edit-form">
+            <p>
+                <span>姓名：</span>
+                <input type="text" id="edit-name" value="小林">
+            </p>
+            <p>
+                <span>年龄：</span>
+                <input type="number" id="edit-age" value="30">
+            </p>
+            <p>
+                <span>职业：</span>
+                <input type="text" id="edit-job" value="物联网技术开发工程师">
+            </p>
+            <p>
+                <span>个人简介：</span>
+                <textarea id="edit-bio">热爱编程，喜欢音乐和旅行。</textarea>
+            </p>
+            <button id="submit-btn">提交</button>
+        </form>
+    </div>
+    <p style="text-align: center;">&copf; 2024 班级姓名</p>
+    <script src="script.js"></script>
+</body>
+</html>
